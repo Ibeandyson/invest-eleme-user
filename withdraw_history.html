@@ -79,26 +79,35 @@
     <div class=" col-xs-12 col-lg-10">
       <div class="container-fluid pt-3 pb-3">
         <!-- ################################ -->
-        <span style="font-weight: bold;">Withdrawal</span><span style="font-size: 0.7em;" class="ml-2">Withdraw
-          Funds</span>
+        <span style="font-weight: bold;">Withdraw</span><span style="font-size: 0.7em;" class="ml-2">History</span>
         <!-- ################################ -->
         <div class="container-fluid">
           <div class="pt-3">
             <div class="card my-card-look">
               <div class="card-header my-card-head my-card-head-text">
-                Overview
+              <div class="">
+                <input class="form-control form-control-sm " style="width:20%;" type="text" placeholder="Search">
+              </div>
               </div>
               <div class="card-body">
-                <p class="card-body-head-text">Amount to withdraw:</p>
-                <div class="row">
-                  <div class="col-xs-12 col-md-6">
-                    <input class="form-control form-control-lg " type="text" placeholder="">
-                    <div class="pt-5 pb-5">
-                      <button type="button" class="btn btn-success">Withdraw</button>
-                      <button type="button" class="btn btn-secondary">Cancel</button>
-                    </div>
-                  </div>
-                </div>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">Code</th>
+                      <th scope="col">Amount</th>
+                      <th scope="col">Status</th>
+                      <th scope="col">Create At</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>140300</td>
+                      <td>7,0000</td>
+                      <td></td>
+                      <td>02-02-2021</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
@@ -121,4 +130,4 @@
       crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html>-
