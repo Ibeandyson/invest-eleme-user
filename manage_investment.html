@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="/css/sidebar.css">
   <link rel="stylesheet" href="css/dashbordoverview.css">
+  <link rel="stylesheet" href="/css/global.css">
 </head>
 
 <body style="background-color: #c5c4c4;overflow-x: hidden;">
@@ -42,8 +43,8 @@
         <div class="pt-5 p-3">
           <div class="pb-1 p-0 text-center">
             <img src="assets/img/1.jpg" style="height: 100px; width: 100px; border-radius: 50px;">
-            <span class="pt-3" style="font-weight: bold; color: #ffffff;">Andyson Ibe</span >
-            <span style="font-weight: bold; color: #ffffff; font-size: 0.5em;margin-top: -18px; ">ibe@GMAIL.COM</span>
+            <p class="pt-3" style="font-weight: bold; color: #ffffff;">Andyson Ibe</p>
+            <p style="font-weight: bold; color: #ffffff; font-size: 0.5em;margin-top: -18px; ">ibe@gmail.com</p>
           </div>
           <hr class="p-0" style="border: 1px solid #ffffff; margin-top: -18px ">
           <p class="side-link-text"><a href="/DashbordOverview.html"><i style="font-size: 20px;"
@@ -58,9 +59,9 @@
                 class="mdi mdi-chart-bar mr-1"></i>Manage Investment</a></p>
           <p class="side-link-text"> <a href="/deposit_history.html"><i style="font-size: 20px;"
                 class="mdi mdi-trending-down mr-1"></i>Deposit History</a></p>
-          <p class="side-link-text"> <a href="/withdraw_history.html"><i style="font-size: 20px;"
+          <p class="side-link-text"> <a href="/DashbordOverview.html"><i style="font-size: 20px;"
                 class="mdi mdi-trending-up mr-1"></i>Withdraw History</a></p>
-          <p class="side-link-text"><a href="#"><i style="font-size: 20px;" class="mdi mdi-logout mr-1"></i> Sign
+          <p class="side-link-text"><a href="/#"><i style="font-size: 20px;" class="mdi mdi-logout mr-1"></i> Sign
               Out</a></p>
         </div>
       </div>
@@ -71,87 +72,59 @@
     -->
 
     <!-- =======================================
-               DASHBORD OVERVIEW START
+                 WITHDRAWAL START
          =======================================
     -->
 
     <div class=" col-xs-12 col-lg-10">
       <div class="container-fluid pt-3 pb-3">
         <!-- ################################ -->
-        <span style="font-weight: bold;">Dashboard</span><span style="font-size: 0.7em;" class="ml-2">Overview</span>
+        <span style="font-weight: bold;">Manage</span><span style="font-size: 0.7em;" class="ml-2">Investment</span>
         <!-- ################################ -->
-      </div>
-      <div class="card border-0 pt-3" style="height: 20px; border-radius: 0%; background-color: #dddddb;"></div>
-      <div class="container-fluid">
-        <div class="pt-3">
-          <div class="row">
-            <div class="col-xs-12 col-md-12 col-lg-4 py-3 px-3">
-              <div class="overview-box">
-                <div class="overview-box-1">
-                  <div class="p-3">
-                    <i style="font-size: 40px; color: #ffffff;" class="mdi mdi-wallet mr-1"></i>
-                  </div>
-                </div>
-                <div class="overview-box-2">
-                  <div class="p-1 pl-3 pr-3">
-                    <p class="overview-box-text-1 pt-2 p-0 m-0">WALLET</p>
-                    <p class="overview-box-text-2 pt-1 p-0 m-0">LEDCER BALANCE</p>
-                    <P class="overview-box-text-3 pt-1 p-0 m-0">N0</P>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-md-12 col-lg-4 py-3 px-3">
-              <div class="overview-box">
-                <div class="overview-box-1-investment">
-                  <div class="p-3">
-                    <i style="font-size: 40px; color: #ffffff;" class="mdi mdi-wallet mr-1"></i>
-                  </div>
-                </div>
-                <div class="overview-box-2">
-                  <div class="p-1 pl-3 pr-3">
-                    <p class="overview-box-text-1 pt-2 p-0 m-0">WALLET</p>
-                    <p class="overview-box-text-2 pt-1 p-0 m-0">INVESTMENT</p>
-                    <P class="overview-box-text-3 pt-1 p-0 m-0">N7,000</P>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-md-12 col-lg-4 py-3 px-3">
-              <div class="overview-box">
-                <div class="overview-box-1-calendar">
-                  <div class="p-3">
-                    <i style="font-size: 40px; color: #ffffff;" class="mdi mdi-calendar-month mr-1"></i>
-                  </div>
-                </div>
-                <div class="overview-box-2">
-                  <div class="p-1 pl-3 pr-3">
-                    <p class="overview-box-text-1 pt-2 p-0 m-0">INVESTMENT</p>
-                    <p class="overview-box-text-2 pt-1 p-0 m-0">1</p>
-                    <P class="overview-box-text-3 pt-1 p-0 m-0"></P>
-                  </div>
+        <div class="container-fluid">
+          <div class="pt-3">
+            <div class="card my-card-look">
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">Code</th>
+                        <th scope="col">Amount</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Create At</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>140300</td>
+                        <td>7,0000</td>
+                        <td></td>
+                        <td>02-02-2021</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- =======================================
-               DASHBORD OVERVIEW END
+      <!-- =======================================
+               WITHDRAWAL END
          =======================================
     -->
-  </div>
+    </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
