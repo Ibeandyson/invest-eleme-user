@@ -29,11 +29,6 @@ a{
   color: #ffffff;
 }
 :active a{
-  background-color: #c5c4c4;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  margin-left: 20px;
-  height: 50px;
-  padding: 10px;
+ border-left: solid 7px rgb(47, 151, 47);
 }
 
