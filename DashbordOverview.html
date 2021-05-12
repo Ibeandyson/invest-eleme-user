@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="/css/sidebar.css">
   <link rel="stylesheet" href="css/dashbordoverview.css">
+  <link rel="stylesheet" href="css/mobile_side_nav.css">
+
 </head>
 
 <body style="background-color: #c5c4c4;overflow-x: hidden;">
@@ -27,6 +29,7 @@
       style="background-color: orange; border-radius: 5px; padding: 5px;padding-left: 20px; padding-right: 20px; color: #ffffff; font-size: 0.8em; font-weight: bold; margin-bottom: 0%;">
       Membership
     </p>
+    <i style="font-size:30px;cursor:pointer; color: #ffffff;"  class="mdi mdi-menu mr-1  d-lg-none d-xs-block d-md-block" onclick="openNav()" ></i>
   </nav>
   <!-- =======================================
                HEADER END
@@ -78,7 +81,26 @@
                SIDE NAV END
          =======================================
     -->
+      <!-- =======================================
+              MOBILE SIDE NAV START 
+         =======================================
+    -->
 
+      <!-- =======================================
+              MOBILE SIDE NAV END 
+         =======================================
+    -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Dashboard</a>
+      <a href="#">Deposit</a>
+      <a href="#">Withdraw</a>
+      <a href="#">Create Investment</a>
+      <a href="#">Manage Investment</a>
+      <a href="#">Deposit History</a>
+      <a href="#">Withdraw History</a>
+      <a href="#">Sign Out</a>
+    </div>
     <!-- =======================================
                DASHBORD OVERVIEW START
          =======================================
@@ -161,6 +183,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script src="/js/mobiile_side_nav.js"></script>
 </body>
 
 </html>
