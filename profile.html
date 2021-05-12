@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="/css/sidebar.css">
+  <link rel="stylesheet" href="css/dashbordoverview.css">
+  <link rel="stylesheet" href="/css/global.css">
+</head>
+
+<body style="background-color: #c5c4c4;overflow-x: hidden;">
+  <!-- =======================================
+               HEADER START
+         =======================================
+    -->
+  <nav class="navbar fixed-top" style="background-color: rgb(47, 151, 47)">
+    <a class="navbar-brand">
+      <img src="assets/logo/log.png"
+        style="height: 30px;background-color: #ffffff; height: 40px; width: 40px; border-radius: 50px" alt="logo">
+    </a>
+    <p
+      style="background-color: orange; border-radius: 5px; padding: 5px;padding-left: 20px; padding-right: 20px; color: #ffffff; font-size: 0.8em; font-weight: bold; margin-bottom: 0%;">
+      Membership
+    </p>
+  </nav>
+  <!-- =======================================
+               HEADER END
+         =======================================
+    -->
+  <div class="row pt-5">
+    <!-- =======================================
+               SIDE NAV START
+         =======================================
+    -->
+    <div class="col-xs-12 col-lg-2 d-none d-lg-block">
+      <div class="card side-bar-card">
+        <div class="pt-5 p-3">
+          <div class="pb-1 p-0 text-center">
+            <div class="row">
+              <div class="col-4">
+                <img src="assets/img/1.jpg" style="height: 60px; width: 60px; border-radius: 50px;">
+              </div>
+              <div class="col-4 p-0">
+                <p class="pt-3" style="font-weight: bold; color: #ffffff; font-size: 0.6em;">Andyson Ibe</p>
+                <p style="font-weight: bold; color: #ffffff; font-size: 0.5em;margin-top: -18px; ">ibe@gmail.com</p>
+              </div>
+            </div>
+            <div class="m-0 p-0 pt-3">
+              <hr class="p-0 " style=" background-color: rgb(47, 151, 47); margin-top: -10px ">
+            </div>
+          </div>
+
+          <p class="side-link-text"><a href="/DashbordOverview.html"><i style="font-size: 20px;"
+                class="mdi mdi-view-dashboard mr-1"></i>Dashboard</a></p>
+          <p class="side-link-text"><a href="/deposit.html"><i style="font-size: 20px;"
+                class="mdi mdi-bank-plus mr-1"></i>Deposit</a></p>
+          <p class="side-link-text"><a href="/withdraw.html"><i style="font-size: 20px;"
+                class="mdi mdi-bank-minus mr-1"></i>Withdraw</a></p>
+          <p class="side-link-text"><a href="/create_investment.html"><i style="font-size: 20px;"
+                class="mdi mdi-wallet-plus mr-1"></i>Create Investment</a></p>
+          <p class="side-link-text"><a href="/manage_investment.html"><i style="font-size: 20px;"
+                class="mdi mdi-chart-bar mr-1"></i>Manage Investment</a></p>
+          <p class="side-link-text"> <a href="/deposit_history.html"><i style="font-size: 20px;"
+                class="mdi mdi-trending-down mr-1"></i>Deposit History</a></p>
+          <p class="side-link-text"> <a href="/withdraw_history.html"><i style="font-size: 20px;"
+                class="mdi mdi-trending-up mr-1"></i>Withdraw History</a></p>
+          <p class="side-link-text"><a href="/#"><i style="font-size: 20px;" class="mdi mdi-logout mr-1"></i> Sign
+              Out</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- =======================================
+               SIDE NAV END
+         =======================================
+    -->
+
+    <!-- =======================================
+                 WITHDRAWAL START
+         =======================================
+    -->
+
+    <div class=" col-xs-12 col-lg-10">
+      <div class="container-fluid pt-3 pb-3">
+        <!-- ################################ -->
+        <span style="font-weight: bold;">My Profile</span>
+        <!-- ################################ -->
+        <div class="container-fluid">
+          <div class="pt-3">
+            <div class="card my-card-look">
+              <div class="card-header my-card-head my-card-head-text">
+                <span class="mr-5">Personal Information:</span><span style="color: blue;">Edit</span>
+              </div>
+              <div class="card-body">
+                <p class="card-body-head-text">Banking Information:</p>
+                <div class="row">
+                  <div class="col-xs-12 col-md-6">
+                    <label class="pb-3" style="font-size: 0.8em; font-weight: bold;">Bank Name</label>
+                    <select class="form-control form-control-sm">
+                      <option>Select Bank</option>
+                    </select>
+                  </div>
+                  <div class="col-xs-12 col-md-6">
+                    <label class="pb-3" style="font-size: 0.8em; font-weight: bold;">Account Number</label>
+                    <input class="form-control form-control-sm" type="text" placeholder="">
+                  </div>
+                   <div class="col-xs-12 col-md-6">
+                    <label class="pt-3" style="font-size: 0.8em; font-weight: bold;">Account Name</label>
+                    <input class="form-control form-control-sm" type="text" placeholder="">
+                  </div>
+                </div>
+                <div class="pt-3" style="float: right;">
+                  <button type="button" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pt-3">
+            <div class="card my-card-look">
+              <div class="card-header my-card-head my-card-head-text">
+                <span class="mr-5">Change Paswword:</span>
+              </div>
+              <div class="card-body">
+                 <div class="row">
+                  <div class="col-xs-12 col-md-4">
+                    <label class="pb-3" style="font-size: 0.8em; font-weight: bold;">Old Password</label>
+                    <input class="form-control form-control-sm" type="text" placeholder="">
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                    <label class="pb-3" style="font-size: 0.8em; font-weight: bold;">New Password</label>
+                    <input class="form-control form-control-sm" type="text" placeholder="">
+                  </div>
+                   <div class="col-xs-12 col-md-4">
+                    <label class="pt-3" style="font-size: 0.8em; font-weight: bold;">Comfirm Password</label>
+                    <input class="form-control form-control-sm" type="text" placeholder="">
+                  </div>
+                </div>
+                <div class="pt-3" style="float: right;">
+                  <button type="button" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- =======================================
+               WITHDRAWAL END
+         =======================================
+    -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
